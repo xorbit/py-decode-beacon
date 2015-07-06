@@ -5,7 +5,9 @@ Released under the [MIT license](LICENSE).
 
 ## Library
 
-The file [decode_beacon.py] provides an easily extensible decoder for beacon advertisement packets as received from BlueZ HCI events.  Currently it supports [Apple iBeacon](https://developer.apple.com/ibeacon/) and the free [AltBeacon](https://github.com/AltBeacon/spec) specifications.
+The file [decode_beacon.py](decode_beacon.py) provides an easily extensible decoder for beacon advertisement packets as received from BlueZ HCI events.  Currently it supports [Apple iBeacon](https://developer.apple.com/ibeacon/) and the free [AltBeacon](https://github.com/AltBeacon/spec) specifications.
+
+I used various sources to try to understand the BlueZ HCI packet and iBeacon formats, this is documented in the [IBEACON.md](IBEACON.md) file.
 
 ## Examples
 
