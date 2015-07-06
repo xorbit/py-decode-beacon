@@ -101,7 +101,8 @@ Meaning of flags:
 * bit 2: BR/EDR Not Supported
 * bit 3: Simultaneous LE and BR/EDR to Same Device Capable (controller)
 * bit 4: Simultaneous LE and BR/EDR to Same Device Capable (Host)
-Source: [this Stackoverflow answer])http://stackoverflow.com/questions/18906988/what-is-the-ibeacon-bluetooth-profile/19040616#19040616)
+
+Source: [this Stackoverflow answer](http://stackoverflow.com/questions/18906988/what-is-the-ibeacon-bluetooth-profile/19040616#19040616)
 
 ### Byte 17, byte 12 of LE advertising info, byte 3 of ad data:
 ```
