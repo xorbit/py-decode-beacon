@@ -1,6 +1,7 @@
 # Python beacon advertisement decoder
 
 Copyright (c) 2015 Patrick Van Oosterwijck
+
 Released under the [MIT license](LICENSE).
 
 ## Library
