@@ -209,7 +209,7 @@ def decode_ad_report(ad_packet):
                               + 'bdaddr length')
     aih = AdInfoHeader._make(struct.unpack('<BB6sB', ad_packet[:9]))
     # Check if this is valid advertisement info
-    if aih.bdaddr_type == 0x00 and aih.length + 10 <= len(ad_packet):
+    if aih.bdaddr_type <= 0x01 and aih.length + 10 <= len(ad_packet):
       # This is (likely) valid (many more checks later), update the
       # adinfo length
       ret['adinfo_bytes'] = aih.length + 10
